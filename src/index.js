@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Generators from './Generator.js';
 import reportWebVitals from './reportWebVitals';
+import { Generators } from './components/Generator';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Generators />
   </React.StrictMode>,
   document.getElementById('root')
 );
