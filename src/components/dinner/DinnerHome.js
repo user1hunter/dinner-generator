@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 
-export const DinnersList = () => {
+export const DinnerHome = () => {
   const [, ] = useState([])
   
 }

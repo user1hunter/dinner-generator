@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  padding: 0%;
+}
+
+.navbar__item {
+  flex-basis: 20%;
+  list-style-type: none;
+  margin: 10px;
+}
+
+.navbar__header {
+  display: flex;
+  text-align: center;
+}
+
+.navbar__link {
+  display: flex;
+  justify-content: center;
+}
