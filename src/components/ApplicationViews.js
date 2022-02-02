@@ -9,7 +9,7 @@ import { GenerateDinner } from "./generator/Generator"
 export const ApplicationViews = () => {
   return (
     <>
-      <Route path="/home">
+      <Route exact path="/">
         <DinnerHome />
       </Route>
 
