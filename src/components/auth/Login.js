@@ -26,7 +26,7 @@ const Login = () => {
             .then(success => {
                 if (success) {
                     console.log("*** Rerouting to root URL ***")
-                    history.push("/home")
+                    history.push("/")
                 }
             })
     }
