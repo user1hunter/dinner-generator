@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react"
+import { useHistory } from "react-router-dom/cjs/react-router-dom.min"
 
 export const DinnersList = () => {
   const [dinners, setDinners] = useState([])
+  const history = useHistory()
 
   useEffect(() => {
     fetch("http://localhost:8088/dinners?expand_userId")
@@ -25,6 +27,10 @@ export const DinnersList = () => {
     }).then(() => getDinners())
   }
 
+  const createDinners = () => {
+    history.push("/create")
+  };
+
   return (
     <>
       <h1>Your Dinner Choices</h1>
@@ -34,6 +40,10 @@ export const DinnersList = () => {
               <button key={dinner.id} onClick={() => {deleteDinner(dinner.id)}}>Delete</button>
             </div>)}
           </ul>
+          <button onClick={() => {
+          createDinners();
+        }}
+        >Add New Dinner</button>
         </div>
     </>
   )
