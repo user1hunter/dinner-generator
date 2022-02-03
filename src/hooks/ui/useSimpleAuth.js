@@ -20,7 +20,7 @@ const useSimpleAuth = () => {
             if ("id" in response) {
                 const baseUserObject = JSON.stringify(response)
                 let encoded = Buffer.from(baseUserObject).toString("base64")
-                localStorage.setItem("generator_token", encoded)
+                localStorage.setItem("generator_token")
             }
         })
     }
