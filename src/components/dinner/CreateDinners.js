@@ -31,7 +31,7 @@ export const CreateDinners = () => {
       body: JSON.stringify(newDinner),
     })
       .then((res) => res.json())
-      .then(history.push("/choices"));
+      .then(() => history.push("/choices"));
     }
   
   return (
