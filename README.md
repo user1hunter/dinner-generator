@@ -1,3 +1,9 @@
+The primary features of this project are to allow the user to input their own dinners options, and then have one of those dinner options returned to the user to recommend a dinner to them.
+
+The target audience for this app would be anyone who struggles to pick what they would like to eat on a daily basis. This app would allow them to put in their options and have one returned to them without the user having to pick by themself.
+
+The main contributors to this project were myself, a few classmates and a friend who gave me the idea. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
