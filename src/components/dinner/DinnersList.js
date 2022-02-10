@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react"
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min"
 import useSimpleAuth from "../../hooks/ui/useSimpleAuth"
+import "./DinnersList.css"
 
 export const DinnersList = () => {
   const [dinners, setDinners] = useState([])
@@ -37,19 +38,23 @@ export const DinnersList = () => {
 
   return (
     <>
-      <h1>Your Dinner Choices</h1>
-        <div className="dinners">
-          <ul>
-            {dinners.filter(dinner => dinner.userId === userId).map((dinner) => <div key={`dinner--${dinner.id}`}>
-            {dinner.name}
-              <button key={dinner.id} onClick={() => {deleteDinner(dinner.id)}}>Delete</button>
-            </div>)}
-          </ul>
-          <button onClick={() => {
-          createDinners();
-        }}
-        >Add New Dinner</button>
-        </div>
+      <div className="dinners"> 
+        <h1 className="dinners--header">Your Dinner Choices</h1>
+          <div className="dinners--list">
+            <ul>
+              {dinners.filter(dinner => dinner.userId === userId).map((dinner) => <div className="dinners--list--name" key={`dinner--${dinner.id}`}>
+              {dinner.name}
+                <button className="dinners--list--delete" key={dinner.id} onClick={() => {deleteDinner(dinner.id)}}>Delete</button>
+              </div>)}
+            </ul>
+          </div>
+          <div className="dinners--button">
+            <button className="dinners--button--form"  onClick={() => {
+            createDinners();
+            }}
+            >Add New Dinner</button>
+          </div>
+      </div>
     </>
   )
 }

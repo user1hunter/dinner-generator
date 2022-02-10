@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
 import useSimpleAuth from "../../hooks/ui/useSimpleAuth"
+import "./Generator.css"
 
 export const GenerateDinner = () => {
   const [dinners, setDinners] = useState([])
@@ -24,12 +25,14 @@ export const GenerateDinner = () => {
 
   return (
     <>
-      <h1>Generate Your Dinner</h1>
-      <div className="generator--recommendation" key={`dinner--${dinners.id}`}>
-        Your recommended dinner is: {option.name}
-      </div>
-      <div className="generator--button">
-        <button onClick={() => {generateDinner()}}>Generate Dinner</button>
+      <div className="generator">
+        <h1 className="generator--header">Generate Your Dinner</h1>
+        <div className="generator--recommendation" key={`dinner--${dinners.id}`}>
+          Your recommended dinner is: {option.name}
+        </div>
+        <div className="generator--button">
+          <button className="generator--button--form" onClick={() => {generateDinner()}}>Generate Dinner</button>
+        </div>
       </div>
     </>
   )

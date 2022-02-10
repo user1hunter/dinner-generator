@@ -1,0 +1,46 @@
+.dinners {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.dinners--header {
+  display: flex;
+  justify-content: center;
+  color: #B1D4E0;
+}
+
+.dinner--name {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  color: #B1D4E0;
+}
+
+.dinner--name--form {
+  color: #B1D4E0;
+}
+
+.dinner--category {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  color: #B1D4E0;
+}
+
+.dinner--submit {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.dinner--submit--button {
+  width: 30%;
+  color: #B1D4E0;
+  background-color: #2E8BC0;
+}
+
+.form--control {
+  color: #B1D4E0;
+  background-color: #2E8BC0;
+}

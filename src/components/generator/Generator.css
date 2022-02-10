@@ -1,0 +1,30 @@
+.generator {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.generator--header {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  color: #B1D4E0;
+}
+
+.generator--recommendation {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  color: #B1D4E0;
+}
+
+.generator--button {
+  display: flex;
+  justify-content: center;
+}
+
+.generator--button--form {
+  width: 30%;
+  color: #B1D4E0;
+  background-color: #2E8BC0;
+}
