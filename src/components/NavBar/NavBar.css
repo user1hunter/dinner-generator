@@ -3,6 +3,7 @@
   flex-wrap: nowrap;
   justify-content: space-evenly;
   padding: 0%;
+  background-color: #0C2D48;
 }
 
 .navbar__item {
@@ -13,10 +14,12 @@
 
 .navbar__header {
   display: flex;
-  text-align: center;
+  justify-content: center;
+  color: #B1D4E0;
 }
 
 .navbar__link {
   display: flex;
   justify-content: center;
+  color: #B1D4E0;
 }

@@ -14,13 +14,13 @@ export const DinnerHome = () => {
   return (
     <section className="buttons">
       <article className="buttons--dinners">
-        <button onClick={() => {
+        <button className="buttons--dinners--form" onClick={() => {
           dinnersList();
         }}
         >View Dinner Options</button>
       </article>
       <article className="buttons--generator">
-        <button onClick={() => {
+        <button className="buttons--generator--form" onClick={() => {
           generateDinners();
         }}
         >Generator</button>
