@@ -17,7 +17,7 @@ export const GenerateDinner = () => {
   
 
   const generateDinner = () => {
-    const len = dinners.length-1;
+    const len = dinners.length;
     const randomNumber = Math.floor(Math.random()*len)
     const test = (dinners[randomNumber])
     setOption(test)
