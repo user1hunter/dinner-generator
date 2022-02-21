@@ -4,6 +4,8 @@ Dinner Generator is a web-app for anyone who has trouble deciding what they woul
 
 ### Features
 * Users have their own profile which they fill with their own dinner options
+* Users can then have one of their dinner options returned to them on the Generator View
+* Each User is able to navigate to the Dinners List view where they can see all of their dinner options
 
 ## How To Use
 
