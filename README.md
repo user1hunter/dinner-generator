@@ -1,78 +1,30 @@
-# Dinner Generator 
+# Dinner Generator
+## Summary
+Dinner Generator is a web-app for anyone who has trouble deciding what they would like to eat. The goal of the app is to provide an easy-to-use app which will help any user to pick what to eat without the user having to decide themselves.
 
-The primary features of this project are to allow the user to input their own dinners options, and then have one of those dinner options returned to the user to recommend a dinner to them.
+### Features
+* Users have their own profile which they fill with their own dinner options
+* Users can then have one of their dinner options returned to them on the Generator View
+* Each User is able to navigate to the Dinners List view where they can see all of their dinner options
 
-The target audience for this app would be anyone who struggles to pick what they would like to eat on a daily basis. This app would allow them to put in their options and have one returned to them without the user having to pick by themself.
+## How To Use
 
-The main contributors to this project were myself, a few classmates and a friend who gave me the idea. 
+#### Warning
+The login method is for demonstration purposes only and in its current form is *not* secure. Please do not create an account with your personal email address.
 
-# Getting Started with Create React App
+### Instructions
+1. Clone the repo to your local machine
+2. Clone the [API](https://github.com/user1hunter/dinner-generator-api)
+3. Host the API using [json-server](https://github.com/typicode/json-server) on port 8088
+4. Install dependencies with `npm install` in the project directory.
+5. Host the project using `npm start` in the project directory.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Demo Users
 
-## Available Scripts
+Login as a demo user under h@p.com
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Planning Documents
+* [Initial wireframe](https://miro.com/app/board/o9J_lkR0ZMc=/)
+* [Entity-Relationship Diagram](https://dbdiagram.io/d/61e7938abb7a646986fb4d5f)
